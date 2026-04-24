@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base { 
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+/* ✅ INI TARO DI SINI (di luar layer) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}

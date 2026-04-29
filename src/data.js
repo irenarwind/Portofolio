@@ -99,12 +99,12 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/cnn.webp";
-import Proyek2 from "/assets/proyek/web.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek1 from "/assets/proyek/p1.webp";
+import Proyek2 from "/assets/proyek/p2.webp";
+import Proyek3 from "/assets/proyek/p3.webp";
+import Proyek4 from "/assets/proyek/p4.webp";
+// import Proyek5 from "/assets/proyek/proyek5.webp";
+// import Proyek6 from "/assets/proyek/proyek6.webp";
 
 export const listProyek = [
   {
@@ -123,22 +123,22 @@ export const listProyek = [
     tools: ["Figma"],
     dad: "300",
   },
-  // {
-  //   id: 3,
-  //   gambar: Proyek3,
-  //   nama: "Web Public Transport",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
-  //   dad: "400",
-  // },
-  // {
-  //   id: 4,
-  //   gambar: Proyek4,
-  //   nama: "Sales Dashboard",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-  //   dad: "500",
-  // },
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Web Public Transport",
+    // desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["Figma"],
+    dad: "400",
+  },
+  {
+    id: 4,
+    gambar: Proyek4,
+    nama: "Sales Dashboard",
+    // desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["Tableau", "Ms.Excel",],
+    dad: "500",
+  },
   // {
   //   id: 5,
   //   gambar: Proyek5,
